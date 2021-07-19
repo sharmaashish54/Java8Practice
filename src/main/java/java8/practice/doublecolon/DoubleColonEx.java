@@ -2,6 +2,7 @@ package java8.practice.doublecolon;
 
 import java8.practice.functionalinterface.FunctionalInterfaceEx;
 
+//Used for method reference or constructor reference 
 public class DoubleColonEx {
 
 	public static void method1() {

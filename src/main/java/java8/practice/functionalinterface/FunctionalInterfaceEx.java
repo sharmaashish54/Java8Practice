@@ -5,7 +5,8 @@ package java8.practice.functionalinterface;
  *  there is no body only declaration while this 
  *  interface can have n number of static and default methods
  *  Using Functional interface methods can now be passed as 
- *  arguments with java8*/
+ *  arguments with java8
+ *  functional interface is return type of lambda expression*/
 
 @FunctionalInterface
 public interface FunctionalInterfaceEx {
