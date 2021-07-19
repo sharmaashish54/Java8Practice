@@ -3,6 +3,7 @@ package java8.practice.doublecolon;
 import java8.practice.functionalinterface.FunctionalInterfaceEx;
 
 //Used for method reference or constructor reference 
+//it can replace lambda expression to have code reusability
 public class DoubleColonEx {
 
 	public static void method1() {
