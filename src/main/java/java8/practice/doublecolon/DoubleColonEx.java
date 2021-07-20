@@ -9,18 +9,23 @@ public class DoubleColonEx {
 	public static void method1() {
 		System.out.println("This can be called with double colon");
 	}
-	
+
 	public void method2() {
 		System.out.println("This also can be called with double colon");
 	}
+
 	public static void main(String[] args) {
 
-		FunctionalInterfaceEx ob = DoubleColonEx::method1;//static method, left end side should be functional interface
-		ob.method();		
-		
-		FunctionalInterfaceEx ob2 =new DoubleColonEx()::method2;//non static method
+		// Refer method1 implementation to functional interface method()- this is method
+		// reference
+		// If we have implementation of abstract method of our Functional interface we
+		// can go for memthod reference else lambda expression
+		FunctionalInterfaceEx ob = DoubleColonEx::method1;// static method, left end side should be functional interface
+		ob.method();
+
+		FunctionalInterfaceEx ob2 = new DoubleColonEx()::method2;// non static method
 		ob2.method();
-		
+
 	}
 
 }
