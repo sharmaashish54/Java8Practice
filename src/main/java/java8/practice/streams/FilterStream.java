@@ -8,7 +8,6 @@ import java.util.stream.Collectors;
 public class FilterStream {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		List<Integer> list= List.of(1,2,3,4,5,6,7);
 		//list.add(45);//cannot be done as this list is immutable
 		System.out.println(list);

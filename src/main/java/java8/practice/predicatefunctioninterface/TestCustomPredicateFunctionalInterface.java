@@ -2,7 +2,6 @@ package java8.practice.predicatefunctioninterface;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Predicate;
 
 import java8.practice.entities.Car;
 

@@ -9,8 +9,6 @@ import java8.practice.entities.Car;
 public class StreamWithPredicateFunctionalInterface {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		List<Car> carList = new ArrayList<>();
 		carList.add(new Car("Polo", "Volkswagan", 700000));
 		carList.add(new Car("KWID", "Renault", 450000));

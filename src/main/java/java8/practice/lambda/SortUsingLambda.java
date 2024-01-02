@@ -3,7 +3,6 @@ package java8.practice.lambda;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 import java8.practice.entities.Employee;

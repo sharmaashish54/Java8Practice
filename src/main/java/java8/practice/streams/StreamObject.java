@@ -37,7 +37,6 @@ Example: BiConsumer<T, U>*/
 public class StreamObject {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Stream<Object> s1 = Stream.empty();
 		s1.forEach(e -> {
@@ -48,7 +47,7 @@ public class StreamObject {
 		System.out.println(Stream.of(names).filter(e -> e.startsWith("S")).collect(Collectors.toList()));
 		// Filter takes Predicate functional interface which produces output of boolean
 		// type.(method test())
-		Stream s2 = Stream.builder().build();
+		//Stream s2 = Stream.builder().build();
 
 		IntStream s3 = Arrays.stream(new int[] { 2, 3, 4, 54, 764, 786 });
 
