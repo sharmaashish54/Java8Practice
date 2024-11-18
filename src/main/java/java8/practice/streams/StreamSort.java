@@ -26,7 +26,7 @@ public class StreamSort {
 		productList2.sort(Collections.reverseOrder());
 		
 		//binary search
-		productList2.stream().filter(o-> o.getName().equals("iPhone 16")).;
+		productList2.stream().filter(o-> o.getName().equals("iPhone 16"));
 		
 		
 
